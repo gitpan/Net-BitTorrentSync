@@ -25,9 +25,9 @@ my %WriteMakefileArgs = (
     "LWP::Simple" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.1",
+  "VERSION" => "0.2",
   "test" => {
-    "TESTS" => ""
+    "TESTS" => "t/*.t"
   }
 );
 
