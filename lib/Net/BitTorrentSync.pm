@@ -34,7 +34,7 @@ our @EXPORT = qw(
     shutdown_btsync
 );
 
-our $VERSION = '0.2';
+our $VERSION = '0.2.1';
 
 my ($config, $listen);
 
@@ -44,7 +44,7 @@ Net::BitTorrentSync - A Perl interface to the BitTorrent Sync API
 
 =head1 VERSION
 
-version 0.1
+version 0.2.1
 
 =head1 SYNOPSIS
 
@@ -228,7 +228,7 @@ Sets the listened address used to communicate with the BitTorrent Sync Process
 =item address (required)
 
 Specifies address that the process listens to, address should be represented as
-“[address]:[port]”
+"[address]:[port]"
 
 =back
 
@@ -770,7 +770,7 @@ L<http://www.bittorrent.com/sync/developers/api>
 
 =head1 AUTHOR
 
-Erez Schatz <erez.schatz@gmail.com>
+Erez Schatz <erez@cpan.com>
 
 =head1 LICENSE
 
