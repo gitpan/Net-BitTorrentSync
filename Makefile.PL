@@ -11,7 +11,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Perl wrapper for the BitTorrent Sync API",
-  "AUTHOR" => "Erez Schatz <erez.schatz\@gmail.com>",
+  "AUTHOR" => "Erez Schatz <erez\@cpan.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     "LWP::Simple" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.2.1",
+  "VERSION" => "0.21",
   "test" => {
     "TESTS" => "t/*.t"
   }

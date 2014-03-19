@@ -34,7 +34,7 @@ our @EXPORT = qw(
     shutdown_btsync
 );
 
-our $VERSION = '0.2.1';
+our $VERSION = '0.21';
 
 my ($config, $listen);
 
@@ -44,7 +44,7 @@ Net::BitTorrentSync - A Perl interface to the BitTorrent Sync API
 
 =head1 VERSION
 
-version 0.2.1
+version 0.21
 
 =head1 SYNOPSIS
 

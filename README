@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Net-BitTorrentSync,
-version 0.2.1:
+version 0.21:
 
   Perl wrapper for the BitTorrent Sync API
 
-This software is Copyright (c) 2014 by Erez Schatz <erez.schatz@gmail.com>.
+This software is Copyright (c) 2014 by Erez Schatz <erez@cpan.com>.
 
 This is free software, licensed under:
 

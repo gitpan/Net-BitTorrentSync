@@ -1,7 +1,7 @@
 ---
 abstract: 'Perl wrapper for the BitTorrent Sync API'
 author:
-  - 'Erez Schatz <erez.schatz@gmail.com>'
+  - 'Erez Schatz <erez@cpan.com>'
 build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
@@ -15,4 +15,4 @@ name: Net-BitTorrentSync
 requires:
   JSON: '0'
   LWP::Simple: '0'
-version: 0.2.1
+version: '0.21'
